@@ -1,3 +1,16 @@
+/**
+ * dsh-sql-formatter — SQL格式化与优化
+ *
+ * 功能：
+ * 1. SQL美化
+ * 2. 查询分析
+ * 3. 优化建议
+ * 4. 索引建议
+ *
+ * 工具：sql_format, sql_analyze, sql_optimize, sql_indexes
+ * 命令：/sql
+ * 配置：enabled, dialect
+ */
 import { z } from 'zod';
 
 export const name = 'dsh-sql-formatter';
