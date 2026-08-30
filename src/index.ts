@@ -38,7 +38,7 @@ function tokenize(sql: string): string[] {
       let str = quote;
       i++;
       while (i < sql.length && sql[i] !== quote) { str += sql[i]; i++; }
-      str += sql[i]; i++;
+      if (i < sql.length) { str += sql[i]; i++; }
       tokens.push(str);
     } else if (/[0-9]/.test(sql[i])) {
       let num = '';
