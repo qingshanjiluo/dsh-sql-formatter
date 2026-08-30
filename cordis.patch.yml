@@ -1,0 +1,5 @@
+- insert:
+    - id: sql-formatter
+      name: dsh-sql-formatter
+      config:
+        enabled: true
