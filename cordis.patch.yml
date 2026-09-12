@@ -1,5 +1,7 @@
 - insert:
     - id: sql-formatter
-      name: dsh-sql-formatter
+      name: '@qingshanjiluo/dsh-sql-formatter'
       config:
-        enabled: true
+        dialect: standard
+        indent: 2
+        uppercaseKeywords: true
